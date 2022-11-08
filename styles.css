@@ -1,0 +1,46 @@
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.post{
+    background-color: white;
+    width: 550px;
+    margin: 1rem auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.date{
+    color:rgba(92, 91, 91, 0.76);
+}
+
+.footer{
+    padding: 10px;
+}
+
+.photo{
+    width: 100%;
+    height: auto;
+}
